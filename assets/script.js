@@ -93,6 +93,7 @@ function checkEnter(event) {
     }
 }
 
+
 startBtn.onclick = startQuiz;
 choicesEl.onclick = questClick;
 submitBtn.onclick = saveHighscore;
