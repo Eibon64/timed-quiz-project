@@ -6,13 +6,13 @@ body {
 a {
     color: #418ed6;
     transition: color 0.1s;
-  }
-  
-  a:hover {
-    color: #a9dbeb;
-  }
-  
-  button {
+}
+
+a:hover {
+    color: #9eddf1;
+}
+
+button {
     display: inline-block;
     margin: 5px;
     cursor: pointer;
@@ -23,65 +23,53 @@ a {
     color: white;
     border: 0;
     transition: background-color 0.1s;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #2274c0;
-  }
-  
-  .choices button {
+}
+
+.choices button {
     display: block;
-  }
-  
-  input[type="text"] {
+}
+
+input[type="text"] {
     font-size: 100%;
-  }
-  
-  ol {
+}
+
+ol {
     padding-left: 2px;
     max-height: 400px;
     overflow: auto;
-  }
-  
-  li {
+}
+
+li {
     padding: 5px;
     list-style: decimal inside none;
-  }
-  
-  li:nth-child(odd) {
-    background-color: #cad1e2;
-  }
-  
-  .container {
+}
+
+.container {
     margin: 100px auto 0 auto;
     max-width: 600px;
-  }
-  
-  .hide {
+}
+
+.hide {
     display: none;
-  }
-  
-  .start {
+}
+
+.start {
     text-align: center;
-  }
-  
-  .scores {
+}
+
+.scores {
     position: absolute;
     top: 8px;
     left: 8px;
-  }
-  
-  .feedback {
-    font-style: bold;
-    font-size: 140%;
-    margin-top: 15px;
-    padding-top: 10px;
-    color: rgb(120, 121, 124);
-    border-top: 1px solid rgb(200, 202, 206);
-  }
-  
-  .timer {
+}
+
+.timer {
+    font-size: 200%;
     position: absolute;
-    top: 8px;
-    right: 8px;
-  }
+    top: 15px;
+    right: 15px;
+}
