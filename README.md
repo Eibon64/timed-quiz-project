@@ -6,7 +6,7 @@ This was a short project to practice my use of JavaScript and web APIs. The prog
 
 ## Installation
 
-N/A
+https://eibon64.github.io/timed-quiz-project/index.html
 
 ## Usage
 
